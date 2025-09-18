@@ -1,7 +1,3 @@
-## Personal Portfolio
-just a simple website describing who I am
+## Starting Over
 
-
-## Credits
-* [BootstrapMade](https://bootstrapmade.com/)
-* [Template](https://bootstrapmade.com/free-html-bootstrap-template-my-resume/)
+under construction since Sep 2025
