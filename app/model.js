@@ -10,15 +10,17 @@ export default function Model() {
     if (!ref.current) return;
 
     // map mouse.x to y-axis rotation
-    const targetRotation = state.pointer.x * Math.PI; // -180° to 180°
+    // const targetRotation = state.pointer.x * Math.PI;
 
-    ref.current.rotation.y +=
-      (targetRotation - ref.current.rotation.y) * 2 * delta;
+    // ref.current.rotation.y +=
+    //   (targetRotation - ref.current.rotation.y) * 2 * delta;
+
+    ref.current.rotation.y += delta;
   });
 
   return (
     <Center ref={ref}>
-      <primitive object={scene} />
+      <primitive object={scene} scale={0.3} />
     </Center>
   );
 }
